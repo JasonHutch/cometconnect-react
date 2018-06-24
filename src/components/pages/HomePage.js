@@ -1,15 +1,21 @@
-import React from "react"
 import { Link } from "react-router-dom";
+import React, { Component } from 'react'
+import NavigationBar from "../Util/NavigationBar";
+import TutorCard_Recent from "../TutorCard_Recent";
 
-const HomePage = () => (
-    <div>
-        <h1>Home Page</h1>
-        <Link to={"/login"}>Login</Link>
-        <p>
-            Here's some more random text to see whats
-            going on with this thing
-        </p>
-    </div>
-);
+class HomePage extends Component {
+    state = { visible: false }
 
-export default HomePage;
+    render() {
+        const { visible } = this.state
+        return (
+            <div>
+                <NavigationBar style={{paddingBottom: 0}}/>
+                <div class="ui divider" style={{paddingTop: 0}}></div>
+                <TutorCard_Recent/>
+            </div>
+        )
+    }
+}
+
+export default HomePage
