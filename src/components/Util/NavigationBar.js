@@ -10,7 +10,7 @@ class NavigationBar extends Component {
     render() {
         const { visible } = this.state
         return (
-            <div className="ui large horizontal divided list" style={{paddingTop: 20}}>
+            <div className="ui small horizontal divided list" style={{paddingTop: 20}}>
                 <div className="item" style={{paddingRight: 50}}>
                     <div className="content">
                         <div className="header">Home</div>
