@@ -10,29 +10,27 @@ class NavigationBar extends Component {
     render() {
         const { visible } = this.state
         return (
-            <div className="ui small horizontal divided list" style={{paddingTop: 20}}>
-                <div className="item" style={{paddingRight: 50}}>
-                    <div className="content">
-                        <div className="header">Home</div>
+            <div className="ui secondary  menu">
+                <a className="active item">
+                    Home
+                </a>
+                <a className="item">
+                    Messages
+                </a>
+                <a className="item">
+                    Friends
+                </a>
+                <div className="right menu">
+                    <div className="item">
+                        <div className="ui icon input">
+                            <input type="text" placeholder="Search..."></input>
+                        </div>
                     </div>
-                </div>
-                <div className="item" style={{paddingRight: 50,paddingLeft: 50}}>
-                    <div className="content">
-                        <div className="header">My Sessions</div>
-                    </div>
-                </div>
-                <div className="item" style={{paddingRight: 50,paddingLeft:50}}>
-                    <div className="content">
-                        <div className="header">Discover</div>
-                    </div>
-                </div>
-                <div className="item" style={{paddingRight: 50,paddingLeft:50}}>
-                    <div className="content">
-                        <div className="header">Calendar</div>
-                    </div>
+                    <a className="ui item">
+                        Logout
+                    </a>
                 </div>
             </div>
-
         )
     }
 }

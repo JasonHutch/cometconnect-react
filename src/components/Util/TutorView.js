@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import tutor1 from '../../Tutor7.jpg'
-import tutor2 from'../../Tutor 5.jpg'
-import tutor3 from'../../Tutor6.jpg'
+import tutor1 from '../../TestTutor2.jpg'
+import tutor2 from'../../TestTutor1.JPG'
+import tutor3 from'../../TestTutor3.jpg'
 
 class TutorView extends Component {
     render() {
