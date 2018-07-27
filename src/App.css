@@ -67,6 +67,12 @@
     top: 210px;
 }
 
+#myClasses{
+    position: absolute;
+    left: 210px;
+    top: 430px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
