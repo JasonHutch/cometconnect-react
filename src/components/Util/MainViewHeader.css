@@ -19,13 +19,25 @@
 }
 
 #userImage{
-    position: fixed;
-    left: 10px;
+    position: absolute;
+    right: 1060px;
+    padding-left: 0px;
 }
 
 #detailsText{
     position: absolute;
-    color: cadetblue;
+    color: green;
     padding-top: 0px;
     top: 0px;
+}
+
+#userTags{
+    padding-top: 20px;
+}
+
+#userStats{
+    position: absolute;
+    padding-left: 40px;
+    top: 0px;
+    left: 500px;
 }
