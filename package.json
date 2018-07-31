@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/circle-packing": "^0.42.1",
     "create-react-app": "^1.5.2",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.2",
+    "rc-calendar": "^9.6.2",
     "react": "^16.4.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-browser-router": "^2.1.2",
@@ -13,10 +15,11 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "semantic": "^0.0.1",
+    "semantic": "0.0.1",
+    "semantic-ui": "^2.3.3",
     "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.1",
-    "validator": "^10.3.0"
+    "validator": "^10.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
