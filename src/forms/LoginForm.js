@@ -3,8 +3,31 @@ import PropTypes from 'prop-types';
 import {Form, Button} from 'semantic-ui-react';
 import validator from "validator";
 import InlineError from '../messages/InlineError'
-class LoginForm extends React.Component
-{
+import HomePage from '../components/pages/HomePage/HomePage';
+import LoginPage from "../components/pages/LoginPage";
+import * as firebase from 'firebase';
+var config = {
+    apiKey: "AIzaSyAMeJq3FHUMzvP4EFVDxk_mWcglZTbEEd0",
+    authDomain: "comet-connect-v2.firebaseapp.com",
+    databaseURL: "https://comet-connect-v2.firebaseio.com",
+    projectId: "comet-connect-v2",
+    storageBucket: "",
+    messagingSenderId: "281689933173"
+};
+
+firebase.initializeApp(config);
+firebase.auth().onAuthStateChanged(function(user) {
+    if (user) {
+        <HomePage/>.style.display = 'block';
+        <LoginPage/>.style.display = "none";
+    } else {
+        <LoginPage/>.style.display = "block";
+        <HomePage/>.style.display = 'none';
+    }
+});
+
+
+class LoginForm extends React.Component {
     state={
         data: {
             email:"",
@@ -19,9 +42,14 @@ class LoginForm extends React.Component
     onSubmit = () =>{
         const errors = this.validate(this.state.data);
         this.setState({errors});
-        if(Object.key(errors).length === 0){
             this.props.submit(this.state.data);
-        }
+            firebase.auth().createUserWithEmailAndPassword(this.state.data.email, this.state.data.password).catch(function(error) {
+                // Handle Errors here.
+                let errorCode = error.code;
+                let errorMessage = error.message;
+
+                window.display(errorMessage, errorCode);
+            });
     }
 
     validate = (data) => {
@@ -67,4 +95,10 @@ class LoginForm extends React.Component
 LoginForm.propTypes = {
     submit: PropTypes.func.isRequired
 }
+
+
+
+
+
+
 export default LoginForm

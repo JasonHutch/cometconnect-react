@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import '../../App.css'
+import React, { Component } from 'react';
+import '../../App.css';
+import {Link} from 'react-router-dom';
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 
 class NavigationBar extends Component {
@@ -27,7 +28,7 @@ class NavigationBar extends Component {
                         </div>
                     </div>
                     <a className="ui item">
-                        Logout
+                        <Link to="/login"> Login </Link>
                     </a>
                 </div>
             </div>

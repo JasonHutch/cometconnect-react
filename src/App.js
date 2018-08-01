@@ -6,8 +6,8 @@ import styles from "../src/App.css"
 
 const App = () => (
         <div className='uicontainer' style={{styles}}>
-            <Route path="/" extract component={HomePage}/>
-            <Route path="/login" extract component={LoginPage}/>
+            <Route path="/" exact component={HomePage}/>
+            <Route path="/login" exact component={LoginPage}/>
         </div>
 
 );
