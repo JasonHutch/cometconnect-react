@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4380d46-7070-4a54-ac25-0e3d5a1a3332" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/forms/CreateAccountForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forms/FormStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Util/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Util/NavigationBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/forms/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49258393">
+    <splitter split-orientation="horizontal" split-proportion="0.49414518">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
@@ -42,23 +39,25 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="CreateAccountForm.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/forms/CreateAccountForm.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="517">
+                  <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                    <element signature="e#483#504#0" />
+                    <element signature="e#579#630#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="exampleGraphData.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Util/exampleGraphData.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
                   <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/forms/LoginForm.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -154,11 +153,32 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
                   <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FormStyles.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/forms/FormStyles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/forms/LoginForm.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -226,7 +246,9 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/forms/FormStyles.css" />
         <option value="$PROJECT_DIR$/src/forms/LoginForm.js" />
+        <option value="$PROJECT_DIR$/src/forms/CreateAccountForm.js" />
       </list>
     </option>
   </component>
@@ -381,12 +403,12 @@
       <workItem from="1528942955646" duration="20944000" />
       <workItem from="1529786587342" duration="721000" />
       <workItem from="1532301012287" duration="5016000" />
-      <workItem from="1532481317635" duration="40851000" />
+      <workItem from="1532481317635" duration="44288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86518000" />
+    <option name="totallyTimeSpent" value="89955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -434,23 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/forms/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="179" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -785,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -812,12 +807,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forms/LoginForm.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/FormStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forms/CreateAccountForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#483#504#0" />
+            <element signature="e#579#630#0" />
           </folding>
         </state>
       </provider>
