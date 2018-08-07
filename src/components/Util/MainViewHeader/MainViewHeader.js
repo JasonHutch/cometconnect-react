@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import styles from '../MainViewHeader.css';
-import image from '../../../IMG_0410.JPG';
+import image from '../../../IMG_1349.JPG';
 import Image from "semantic-ui-react/dist/es/elements/Image/Image";
 
 class MainViewHeader extends Component {
     render() {
         return (
             <div className='mainViewHeader' style={{styles}} id='userLabel'>
-                <img id='userImage' className="ui small circular image" src={require('../../../IMG_0410.JPG') }/>
+                <img id='userImage' className="ui small circular image" src={require('../../../IMG_1349.JPG') }/>
                 <h2 className="ui header">Jason Hutchinson</h2>
                 <div  id='detailsText' className="ui horizontal bulleted list">
                     <h1 className="item">

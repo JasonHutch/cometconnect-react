@@ -12,4 +12,43 @@
     left: 800px;
 }
 
+.addClassesView {
+    position: absolute;
+    left: 800px;
+    top: 675px;
+    width: 400px;
+}
+
+.ui category search {
+    width: 400px;
+}
+
+
+.currentClasses {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.previousClasses {
+    position: absolute;
+    left: 205px;
+    top: 100px;
+
+}
+
+.verticalDivider {
+    position: absolute;
+    top: 200px;
+    right: 275px;
+    width: 50px;
+    height: 300px;
+}
+
+.submitButton {
+    position: absolute;
+    left: 30px;
+    top: 550px;
+}
+
   

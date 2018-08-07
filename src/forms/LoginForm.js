@@ -7,18 +7,9 @@ import HomePage from '../components/pages/HomePage/HomePage';
 import LoginPage from "../components/pages/LoginPage";
 import styles from "../forms/FormStyles.css";
 import * as firebase from 'firebase';
+import firebaseConfig from '../forms/firebaseConfig.js'
 
-var config = {
-    apiKey: "AIzaSyAMeJq3FHUMzvP4EFVDxk_mWcglZTbEEd0",
-    authDomain: "comet-connect-v2.firebaseapp.com",
-    databaseURL: "https://comet-connect-v2.firebaseio.com",
-    projectId: "comet-connect-v2",
-    storageBucket: "",
-    messagingSenderId: "281689933173"
-};
-
-firebase.initializeApp(config);
-firebase.auth().onAuthStateChanged(function (user) {
+firebaseConfig.auth().onAuthStateChanged(function (user) {
     if (user) {
         <HomePage/>.style.display = 'block';
         <LoginPage/>.style.display = "none";

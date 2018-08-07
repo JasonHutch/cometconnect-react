@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './MainViewHeader.css';
-import image from '../../IMG_0410.JPG';
+import image from '../../IMG_1349.JPG';
 import Image from "semantic-ui-react/dist/es/elements/Image/Image";
 
 class RecentCards extends Component {
