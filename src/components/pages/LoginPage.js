@@ -1,5 +1,6 @@
 import React from "react";
 import LoginForm from "../../forms/LoginForm";
+import styles from '../../forms/FormStyles.css';
 
 class LoginPage extends React.Component{
     submit = () => {
@@ -7,8 +8,7 @@ class LoginPage extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1>Login Page</h1>
+            <div className='loginPage' style={styles}>
                 <LoginForm submit={this.submit}/>
             </div>
         );

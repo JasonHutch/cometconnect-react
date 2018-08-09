@@ -12,4 +12,46 @@
     left: 800px;
 }
 
-  
+.loginPage {
+    position: absolute;
+    width: 1366px;
+    height:768px;
+    background-color: grey;
+}
+
+#loginCard {
+    position: absolute;
+    left: 275px;
+    top: 200px;
+    width: 900px;
+    height: 335px;
+    background-color: #BDC3C7;
+}
+
+#loginContent {
+    position: absolute;
+    top: 45px;
+    padding: 30px;
+    width: 400px;
+    left: 500px;
+    height: 350px;
+
+}
+
+#loginButton {
+    position: absolute;
+    left: 10px;
+}
+
+#welcomeMessage{
+    position: absolute;
+    height: 330px;
+    width: 505px;
+    background-color: #BDC3C7;
+}
+
+#welcomeContent {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
