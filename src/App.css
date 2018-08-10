@@ -3,6 +3,11 @@
     width: 1080px;
     height: 768px;
 }
+
+@font-face {
+    font-family: aboutFont;
+    src: url('../src/loveloblack.otf');
+}
 .uicontainer{
     position: absolute;
     width: 100%;
@@ -78,6 +83,36 @@
     left: 550px;
     width: 600px;
     height: 400px
+}
+
+.navBar {
+    position: absolute;
+    width: 1336px;
+    height: 50px;
+    background-color: #CCD1D1;
+}
+
+.infoAbout {
+    width: 1336px;
+    height: 200px;
+    background-color: #ECF0F1;
+}
+
+#aboutHeader {
+    width:350px;
+    height: 500px;
+    background-color: coral;
+}
+
+#aboutUsText{
+    font-family: aboutFont, sans-serif;
+    background-color: #ECF0F1;
+    fill-opacity: 50%;
+    position: absolute;
+    left: 20px;
+    top: 900px;
+    font-size: 30px;
+    text-align: center;
 }
 
 @keyframes App-logo-spin {
